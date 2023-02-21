@@ -8,8 +8,8 @@ DATA_2 = np.array(y)
 #------------------------------------------------------------
 #We built up the NN
 netPear = tfl.input_data(shape=[1])
-netPear = tfl.fully_connected(netPear,10)
-netPear = tfl.fully_connected(netPear,10)
+netPear = tfl.fully_connected(netPear,3)
+netPear = tfl.fully_connected(netPear,3)
 netPear = tfl.fully_connected(netPear,1,activation='relu')
 netPear = tfl.regression(netPear)
 coockie = tfl.DNN(netPear)
