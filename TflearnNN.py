@@ -1,5 +1,4 @@
 #Ignore if all is squished
-import nltk
 import tflearn as tfl
 import numpy as np
 import tensorflow as tf
