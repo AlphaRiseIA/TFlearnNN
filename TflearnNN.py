@@ -1,11 +1,12 @@
-#Ignore if all is squished
 import tflearn as tfl
 import numpy as np
 import tensorflow as tf
+#------------------------------------------------------------
+#We say the variables for the NN train, you need to fill with the info to process on "x" and on "y"
 DATA_1 = np.array(x)
 DATA_2 = np.array(y)
 #------------------------------------------------------------
-#The NN here uwu
+#We built up the NN
 netPear = tfl.input_data(shape=[1])
 netPear = tfl.fully_connected(netPear,10)
 netPear = tfl.fully_connected(netPear,10)
