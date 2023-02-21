@@ -15,6 +15,6 @@ netPear = tfl.regression(netPear)
 coockie = tfl.DNN(netPear)
 #------------------------------------------------------------
 #Now we cook it and store it in a jar like cookies
-coockie.fit(DATA_1,DATA_2,n_epoch=1000,batch_size=11,show_metric=True)
+hisotry = coockie.fit(DATA_1,DATA_2,n_epoch=1000,batch_size=11,show_metric=True)
 coockie.save("CoockiesJar.tflearn")
 #------------------------------------------------------------
