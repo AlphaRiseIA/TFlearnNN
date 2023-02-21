@@ -1,7 +1,5 @@
 #Ignore if all is squished
 import nltk
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
 import tflearn as tfl
 import numpy as np
 import tensorflow as tf
