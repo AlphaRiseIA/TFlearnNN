@@ -7,7 +7,7 @@ DATA_1 = np.array(x)
 DATA_2 = np.array(y)
 #------------------------------------------------------------
 #The NN here uwu
-netPear = tfl.input_data(shape=[None,])
+netPear = tfl.input_data(shape=[1])
 netPear = tfl.fully_connected(netPear,10)
 netPear = tfl.fully_connected(netPear,10)
 netPear = tfl.fully_connected(netPear,1,activation='relu')
